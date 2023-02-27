@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.entity;
 
 public class Name {
     private int id;
@@ -17,4 +17,7 @@ public class Name {
         return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
 }
